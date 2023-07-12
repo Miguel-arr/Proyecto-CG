@@ -1,0 +1,45 @@
+html,
+body {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow-y: hidden;
+}
+
+#root {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.Button-asteroid {
+    position: absolute;
+    width: 100vh;
+    z-index: 1;
+}
+
+.Button-asteroid > button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+}
+
+.Button-asteroid > button:hover{
+    background-color: rgb(132, 12, 12);
+    color: white;
+}
+
+.Button-asteroid > button:active{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
